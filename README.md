@@ -1,90 +1,69 @@
 === Image Dimensions Display ===
 Contributors: onlinewebgrow
-Donate link: https://onlinewebgrow.com/
-Tags: media library, images, dimensions, image size, media management
+Tags: media library, image dimensions, aspect ratio, recommended size
 Requires at least: 5.2
 Tested up to: 6.7
-Stable tag: 1.0.4
 Requires PHP: 7.2
-License: GPLv2 or later
+Stable tag: 1.0.6
+License: GPL v2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Displays image dimensions, file size, image type, and recommends the best size based on WordPress media settings in the WordPress media library for better media management.
+Displays image dimensions, aspect ratio, and recommended size in the WordPress media library.
 
 == Description ==
 
-Image Dimensions Display is a lightweight plugin that adds new columns to your WordPress media library, showing the following information for each image:
+**Image Dimensions Display** is a lightweight plugin that enhances the WordPress media library by adding a new column to display the following information for each image:
 
-* Dimensions (width × height in pixels)
-* File size (in KB or MB)
-* Image type (e.g., JPEG, PNG, GIF)
-* Recommended size based on WordPress media settings
+- **Image Dimensions**: Displays the width and height of the image in pixels.
+- **Aspect Ratio**: Shows the aspect ratio of the image (e.g., 16:9, 4:3).
+- **Recommended Size**: Suggests the best size category (Thumbnail, Medium, Large) based on the WordPress media settings.
 
-This makes it easier to manage and organize your media files by providing quick access to essential image details without having to open each file individually.
-
-**Features:**
-
-* Adds four new columns to the media library: Dimensions, File Size, Image Type, and Recommended Size
-* Displays aspect ratio for images
-* Clean and simple interface
-* No configuration needed
-* Lightweight and efficient
+This plugin is especially useful for developers, designers, and content creators who need to manage images efficiently and ensure they meet specific size requirements.
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/image-dimensions-display` directory, or install the plugin through the WordPress plugins screen directly.
-2. Activate the plugin through the 'Plugins' screen in WordPress.
-3. The new columns will automatically appear in your media library.
+1. Download the plugin ZIP file.
+2. Go to your WordPress admin dashboard.
+3. Navigate to **Plugins > Add New**.
+4. Click **Upload Plugin** and select the downloaded ZIP file.
+5. Click **Install Now** and then **Activate** the plugin.
+
+Once activated, the new "Dimensions" column will appear in the WordPress media library.
 
 == Frequently Asked Questions ==
 
-= Does this plugin modify my images? =
+= Does this plugin work with all image types? =
+Yes, the plugin works with all image types supported by WordPress, including JPEG, PNG, and GIF.
 
-No, this plugin only reads and displays information about your images. It doesn't modify any of your files.
+= Can I customize the recommended sizes? =
+The recommended sizes are based on the media settings configured in **Settings > Media** in your WordPress admin dashboard.
 
-= Will this plugin slow down my website? =
-
-No, the plugin is very lightweight and only runs in the WordPress admin area.
-
-= Does it work with all image types? =
-
-Yes, it works with all standard image formats supported by WordPress (JPG, PNG, GIF, WebP, etc.).
-
-= How does the plugin determine the recommended size? =
-
-The plugin uses the media size settings configured in WordPress (thumbnail, medium, large) to recommend the most appropriate size for each image.
+= Does this plugin affect the front-end of my site? =
+No, this plugin only modifies the admin area of your WordPress site and does not affect the front-end.
 
 == Screenshots ==
 
-1. Media library showing the new columns for Dimensions, File Size, Image Type, and Recommended Size.
+1. **Media Library with Dimensions Column**  
+   Displays the new "Dimensions" column in the media library, showing image dimensions, aspect ratio, and recommended size.
 
 == Changelog ==
 
+= 1.0.6 =
+* Escaped all outputs for improved security.
+* Fixed minor bugs in the aspect ratio calculation.
+* Updated plugin description and documentation.
+
+= 1.0.5 =
+* Added recommended size functionality based on WordPress media settings.
+* Improved aspect ratio calculation.
+
 = 1.0.4 =
-* Added functionality to recommend the best size based on WordPress media settings.
-* Improved user interface for displaying recommended sizes.
-* Updated documentation and descriptions.
-
-= 1.0.3 =
-* Tested compatibility with WordPress 6.7.
-* Improved performance and code readability.
-* Added aspect ratio display for images.
-
-= 1.0.2 =
-* Bug fixes and improvements.
-* Added compatibility with the latest WordPress version.
-
-= 1.0.1 =
-* Initial bug fixes.
-* Improved compatibility.
-
-= 1.0.0 =
-* Initial release.
+* Initial release with image dimensions and aspect ratio display.
 
 == Upgrade Notice ==
 
-= 1.0.4 =
-This version adds recommended size functionality and improves the user interface.
+= 1.0.6 =
+This update improves security by escaping all outputs and fixes minor bugs. Please update to ensure compatibility with the latest WordPress version.
 
 == Source Code ==
 
@@ -93,3 +72,7 @@ The source code for this plugin is available on GitHub: [https://github.com/onli
 == Privacy Policy ==
 
 This plugin does not collect or store any personal data.
+
+== License ==
+
+This plugin is licensed under the GPL v2 or later. See the [GNU General Public License](https://www.gnu.org/licenses/gpl-2.0.html) for more details.
