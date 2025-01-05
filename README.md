@@ -78,7 +78,7 @@ This version ensures compatibility with WordPress 6.7 and includes performance i
 
 == Source Code ==
 
-The source code for this plugin is available on GitHub: [https://github.com/anderJG/image-dimensions-display](https://github.com/anderJG/image-dimensions-display)
+The source code for this plugin is available on GitHub: [https://github.com/onlinewebgrow/image-dimensions-display](https://github.com/onlinewebgrow/image-dimensions-display)
 
 == Privacy Policy ==
 
