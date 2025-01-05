@@ -4,12 +4,12 @@ Donate link: https://onlinewebgrow.com/
 Tags: media library, images, dimensions, image size, media management
 Requires at least: 5.2
 Tested up to: 6.7
-Stable tag: 1.0.3
+Stable tag: 1.0.4
 Requires PHP: 7.2
 License: GPLv2 or later
 License URI: https://www.gnu.org/licenses/gpl-2.0.html
 
-Displays image dimensions, file size, and image type in the WordPress media library for better media management.
+Displays image dimensions, file size, image type, and recommends the best size based on WordPress media settings in the WordPress media library for better media management.
 
 == Description ==
 
@@ -18,12 +18,13 @@ Image Dimensions Display is a lightweight plugin that adds new columns to your W
 * Dimensions (width × height in pixels)
 * File size (in KB or MB)
 * Image type (e.g., JPEG, PNG, GIF)
+* Recommended size based on WordPress media settings
 
 This makes it easier to manage and organize your media files by providing quick access to essential image details without having to open each file individually.
 
 **Features:**
 
-* Adds three new columns to the media library: Dimensions, File Size, and Image Type
+* Adds four new columns to the media library: Dimensions, File Size, Image Type, and Recommended Size
 * Displays aspect ratio for images
 * Clean and simple interface
 * No configuration needed
@@ -49,11 +50,20 @@ No, the plugin is very lightweight and only runs in the WordPress admin area.
 
 Yes, it works with all standard image formats supported by WordPress (JPG, PNG, GIF, WebP, etc.).
 
+= How does the plugin determine the recommended size? =
+
+The plugin uses the media size settings configured in WordPress (thumbnail, medium, large) to recommend the most appropriate size for each image.
+
 == Screenshots ==
 
-1. Media library showing the new columns for Dimensions, File Size, and Image Type.
+1. Media library showing the new columns for Dimensions, File Size, Image Type, and Recommended Size.
 
 == Changelog ==
+
+= 1.0.4 =
+* Added functionality to recommend the best size based on WordPress media settings.
+* Improved user interface for displaying recommended sizes.
+* Updated documentation and descriptions.
 
 = 1.0.3 =
 * Tested compatibility with WordPress 6.7.
@@ -73,8 +83,8 @@ Yes, it works with all standard image formats supported by WordPress (JPG, PNG, 
 
 == Upgrade Notice ==
 
-= 1.0.3 =
-This version ensures compatibility with WordPress 6.7 and includes performance improvements.
+= 1.0.4 =
+This version adds recommended size functionality and improves the user interface.
 
 == Source Code ==
 
